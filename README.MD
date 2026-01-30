@@ -17,12 +17,6 @@ This project is an end-to-end Machine Learning solution designed to identify cus
 - **Model Explainability:** Used **SHAP** values to identify that `tenure` and `MonthlyCharges` are the biggest churn drivers.
 - **Interactive UI:** A web app where users can input customer details and get instant churn risk probabilities.
 
-## 📁 Project Structure
-- `notebooks/`: Contains step-by-step data loading, EDA, and model training.
-- `model/`: Stores the trained `.pkl` model pipeline.
-- `app.py`: Streamlit application code.
-- `requirements.txt`: List of dependencies for easy installation.
-
 ## ⚙️ How to Run
 1. Install dependencies: `pip install -r requirements.txt`
 2. Run the app: `streamlit run app.py`
